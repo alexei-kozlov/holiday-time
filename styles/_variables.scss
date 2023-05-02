@@ -1,0 +1,6 @@
+$primary-text-color: #000000;
+$secondary-text-color: #FFFFFF;
+
+@function url-variable-colour($colour) {
+    @return "%23" + str-slice("#{$colour}", 2, -1)
+}
